@@ -1,0 +1,138 @@
+
+ html {
+  scroll-behavior: smooth;
+
+}
+
+#wrapper {
+  background-repeat: inherit;
+  background-size: 20%;
+  color: rgb(243, 242, 223);
+  font-weight: 900;
+  font-family: 'Courgette', cursive;
+  font-size: 25px;
+
+}
+
+#about, #howitworks, #contactus, #startsearch {
+  text-decoration-line: underline;
+}
+
+#aboutText, #contactText, #howItWorksText {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: papayawhip;
+}
+
+
+#petLocations, #weather, #weatherConditions {
+   font-family: 'Courgette', cursive;
+  color: papayawhip;
+}
+
+
+#searchText {
+  background-color: papayawhip;
+}
+
+.formBody {
+  max-width: 306px;
+  margin: auto;
+  padding-bottom: 20px;
+}
+#search-btn {
+  width: 100%;
+  margin: auto !important;
+}
+.light { color: #fff}
+.form-control { color: #000; text-align: center}
+nav ul a,
+nav .brand-logo {
+  color: #fff;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+#back2Top {
+  width: 45px;
+  line-height: 19px;
+  overflow: hidden;
+  z-index: 999;
+  display: none;
+  cursor: pointer;
+  position: fixed;
+  bottom: 50px;
+  right: 0;
+  background-color: rgba(32,44,86,0.7);    
+  text-align: center;
+  font-size: 19px;
+  text-decoration: none;
+  padding-top: 13px;
+  border-radius: 7px 7px 0px 0px;
+color: #fff !important;
+  padding-bottom: 10px;
+-moz-transform: rotate(270deg);
+  -webkit-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+#back2Top a { color: #fff !important}
+
+.arrow {
+-moz-transform: rotate(270deg) !important;
+  -webkit-transform: rotate(270deg) !important;
+  -o-transform: rotate(270deg) !important;
+  -ms-transform: rotate(270deg) !important;
+  transform: rotate(270deg) !important;
+font-size: 45px;
+color: #fff !important
+
+}
+
+#back2Top:hover {
+  background-color: rgba(32,44,86,0.3);
+  color: #fff;
+}
